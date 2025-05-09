@@ -73,15 +73,17 @@ class ProgressRole(SphinxRole):
 
     @staticmethod
     def text_to_pct(v: str) -> int:
-        if v.endswith('%'):
-            pct = float(v.rstrip('%'))
-        elif v.startswith('0.'):
-            pct = float(v)*100
-        elif '/' in v:
-            [num, den] = v.split('/', maxsplit=1)
-            pct =  100*float(num)/float(den) if float(den) != 0 else 0
-        else:
-            pct = 0
+        pct = 0
+        try:
+            if v.endswith('%'):
+                pct = float(v.rstrip('%'))
+            elif v.startswith('0.'):
+                pct = float(v)*100
+            elif '/' in v:
+                [num, den] = v.split('/', maxsplit=1)
+                pct = 100*float(num)/float(den)
+        except Exception as e:
+            logger.warning('failed to convert %s to percentage: %s', e)
         return round(pct)
 
     def run(self) -> tuple[list[Node], list[system_message]]:
