@@ -29,6 +29,8 @@ classifiers = [
 requires-python = ">=3.8"
 dependencies = [
     "Sphinx >= 4",
+    "drawsvg",
+    "data-url",
 ]
 
 dynamic = ["version"] # required by setuptools_scm, see section [build-system]

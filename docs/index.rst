@@ -35,7 +35,7 @@ Introduction
 .. warning::
 
    Currently, this extension is only used internally in `Sphinx Notes`__ and
-   **NO availability/stability guarantees**.
+   **NO availability/stability guarantees**. |40|
 
    __ https://sphinx.silverrainz.me/
 
@@ -70,6 +70,13 @@ Then, add the extension name to ``extensions`` configuration item in your
 .. _conf.py: https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 .. ADDITIONAL CONTENT START
+
+.. rst-example::
+
+   - :progress:`0.25`
+   - :progress:`25%` 
+   - :progress:`25/100`
+   - :progress:`0%`, :progress:`20%`, :progress:`40%`, :progress:`60%`, :progress:`100%`
 
 .. ADDITIONAL CONTENT END
 
