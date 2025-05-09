@@ -1,0 +1,22 @@
+{
+  "template": "https://github.com/sphinx-notes/cookiecutter",
+  "commit": "0b096cd7ecff1b28ee8c2887ba3321418be34b9a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "namespace": "sphinxnotes",
+      "name": "poc",
+      "full_name": "sphinxnotes-poc",
+      "author": "Shengyu Zhang",
+      "description": "Proof of concept of some ideas about extending Sphinx",
+      "version": "0.1.0",
+      "github_owner": "sphinx-notes",
+      "github_repo": "poc",
+      "pypi_name": "sphinxnotes-poc",
+      "pypi_owner": "SilverRainZ",
+      "_template": "https://github.com/sphinx-notes/cookiecutter",
+      "_commit": "0b096cd7ecff1b28ee8c2887ba3321418be34b9a"
+    }
+  },
+  "directory": null
+}
