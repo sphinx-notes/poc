@@ -35,7 +35,7 @@ Introduction
 .. warning::
 
    Currently, this extension is only used internally in `Sphinx Notes`__ and
-   **NO availability/stability guarantees**. |40|
+   **NO availability/stability guarantees**.
 
    __ https://sphinx.silverrainz.me/
 
