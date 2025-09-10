@@ -71,7 +71,7 @@ Then, add the extension name to ``extensions`` configuration item in your
 
 .. ADDITIONAL CONTENT START
 
-.. rst-example::
+.. example::
 
    - :progress:`0.25`
    - :progress:`25%` 
