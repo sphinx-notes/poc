@@ -3,6 +3,7 @@ from typing import TYPE_CHECKING
 from importlib.metadata import version
 from math import pi, cos, sin, ceil
 from urllib.parse import quote
+import base64
 
 from sphinx.util import logging
 from sphinx.util.docutils import SphinxRole
@@ -84,9 +85,10 @@ class ProgressRole(SphinxRole):
                                      self.config.progress_bg_color1,
                                      self.config.progress_bg_color2,
                                      ))
+        svg = base64.b64encode(svg.encode('utf-8'))
         nodes = []
         nodes.append(image(self.rawtext,
-                           uri = construct_data_url('image/svg+xml', False, svg),
+                           uri = construct_data_url('image/svg+xml', True, svg),
                            alt = f'Progress: {self.text}',
                            width = '1em',
                            CLASS = 'sphinxnotes-progress',
