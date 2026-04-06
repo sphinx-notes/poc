@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/sphinx-notes/cookiecutter",
-  "commit": "0b096cd7ecff1b28ee8c2887ba3321418be34b9a",
+  "commit": "4c6b17aec1a4b8ddca95c4882c6bed2bc230d595",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -14,8 +14,13 @@
       "github_repo": "poc",
       "pypi_name": "sphinxnotes-poc",
       "pypi_owner": "SilverRainZ",
+      "is_python_project": true,
+      "python_version": "3.12",
+      "is_sphinx_extension": true,
+      "sphinx_version": "7.0",
+      "development_status": "3 - Alpha",
       "_template": "https://github.com/sphinx-notes/cookiecutter",
-      "_commit": "0b096cd7ecff1b28ee8c2887ba3321418be34b9a"
+      "_commit": "4c6b17aec1a4b8ddca95c4882c6bed2bc230d595"
     }
   },
   "directory": null

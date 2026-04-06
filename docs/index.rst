@@ -8,19 +8,15 @@ sphinxnotes-poc
 .. |docs| image:: https://img.shields.io/github/deployments/sphinx-notes/poc/github-pages?label=docs
    :target: https://sphinx.silverrainz.me/poc
    :alt: Documentation Status
-
 .. |license| image:: https://img.shields.io/github/license/sphinx-notes/poc
    :target: https://github.com/sphinx-notes/poc/blob/master/LICENSE
    :alt: Open Source License
-
 .. |pypi| image:: https://img.shields.io/pypi/v/sphinxnotes-poc.svg
-   :target: https://pypi.python.org/pypi/sphinxnotes-poc
+   :target: https://pypistats.org/packages/sphinxnotes-poc
    :alt: PyPI Package
-
 .. |download| image:: https://img.shields.io/pypi/dm/sphinxnotes-poc
    :target: https://pypi.python.org/pypi/sphinxnotes-poc
    :alt: PyPI Package Downloads
-
 .. |github| image:: https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white/
    :target: https://github.com/sphinx-notes/poc
    :alt: GitHub Repository
@@ -49,11 +45,13 @@ Getting Started
    We assume you already have a Sphinx documentation,
    if not, see `Getting Started with Sphinx`_.
 
+
 First, downloading extension from PyPI:
 
 .. code-block:: console
 
    $ pip install sphinxnotes-poc
+
 
 Then, add the extension name to ``extensions`` configuration item in your
 :parsed_literal:`conf.py_`:
@@ -98,6 +96,7 @@ as part of **The Sphinx Notes Project**.
    :caption: The Sphinx Notes Project
 
    Home <https://sphinx.silverrainz.me/>
+   GitHub <https://github.com/sphinx-notes>
    Blog <https://silverrainz.me/blog/category/sphinx.html>
    PyPI <https://pypi.org/search/?q=sphinxnotes>
 
