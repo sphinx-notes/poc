@@ -15,10 +15,12 @@ from importlib.metadata import version
 if TYPE_CHECKING:
     from sphinx.application import Sphinx
 
+
 def setup(app: Sphinx):
     """Sphinx extension entrypoint."""
 
     from . import progress
+
     progress.setup(app)
 
     return {'version': version('sphinxnotes.poc')}

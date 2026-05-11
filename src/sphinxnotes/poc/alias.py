@@ -7,6 +7,7 @@ if TYPE_CHECKING:
     from sphinx.application import Sphinx
     from sphinx.config import Config
 
+
 def _config_inited(app: Sphinx, cfg: Config) -> None:
     for name, alias in cfg.alias_directives:
         directive = directives._directives[name]  # type: ignore[attr-defined]
